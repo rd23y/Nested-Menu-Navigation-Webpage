@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subject Topics</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Subjects</h1>
+
+    <!-- Subject: Mathematics -->
+    <div class="subject" onclick="toggleTopics('math-topics')">Mathematics</div>
+    <ul id="math-topics" class="topics">
+        <li><a href="algebra.html">Algebra</a></li>
+        <li><a href="geometry.html">Geometry</a></li>
+        <li><a href="calculus.html">Calculus</a></li>
+        <li><a href="statistics.html">Statistics</a></li>
+    </ul>
+
+    <!-- Subject: Science -->
+    <div class="subject" onclick="toggleTopics('science-topics')">Science</div>
+    <ul id="science-topics" class="topics">
+        <li><a href="physics.html">Physics</a></li>
+        <li><a href="chemistry.html">Chemistry</a></li>
+        <li><a href="biology.html">Biology</a></li>
+        <li><a href="astronomy.html">Astronomy</a></li>
+    </ul>
+
+    <!-- Subject: History -->
+    <div class="subject" onclick="toggleTopics('history-topics')">History</div>
+    <ul id="history-topics" class="topics">
+        <li><a href="ancient.html">Ancient History</a></li>
+        <li><a href="medieval.html">Medieval History</a></li>
+        <li><a href="modern.html">Modern History</a></li>
+        <li><a href="us.html">U.S. History</a></li>
+    </ul>
+
+    <script src="script.js"></script>
+</body>
+</html>

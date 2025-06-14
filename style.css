@@ -1,0 +1,50 @@
+/* General styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f4f4f4;
+}
+
+/* Main heading */
+h1 {
+    text-align: center;
+    color: #2c3e50;
+}
+
+/* Subject titles (clickable) */
+.subject {
+    font-size: 1.5em;
+    margin-top: 25px;
+    cursor: pointer;
+    color: #2980b9;
+    font-weight: bold;
+}
+
+/* Topics under each subject (initially hidden) */
+.topics {
+    list-style-type: none;
+    padding-left: 20px;
+    display: none;
+}
+
+/* Topic links */
+.topics li a {
+    color: #34495e;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+/* Hover effect for topic links */
+.topics li a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 600px) {
+    .subject {
+        font-size: 1.2em;
+    }
+    .topics li a {
+        font-size: 1em;
+    }
+}
